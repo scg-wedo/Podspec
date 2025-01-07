@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.author       = { 'WEDO' => 'wedo@scg.com' }
   spec.platform     = :ios, '13.0'
   spec.source       = {
-    :git => 'https://github.com/scg-wedo/smart-living-design-token-ios',
+    :git => 'git@github.com:scg-wedo/smart-living-design-token-ios.git',
     :tag => "#{spec.version}"
   }
   spec.resource_bundles = {
